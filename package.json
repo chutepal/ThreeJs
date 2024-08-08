@@ -1,0 +1,27 @@
+{
+  "name": "threejs",
+  "version": "1.0.0",
+  "description": "ThreeJS tutorial",
+  "main": "cube.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chutepal/ThreeJs.git"
+  },
+  "author": "Pallavi Chute",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chutepal/ThreeJs/issues"
+  },
+  "homepage": "https://github.com/chutepal/ThreeJs#readme",
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.167.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
