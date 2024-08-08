@@ -1,3 +1,5 @@
+Reference #LINK - https://www.youtube.com/watch?v=xJAfLdUgdc4&list=PLjcjAqAnHd1EIxV4FSZIiJZvsdrBc1Xho
+
 Three important things to render anything in ThreeJs:
 1. Scene
 2. Camera
@@ -7,7 +9,8 @@ Three important things to render anything in ThreeJs:
 
 ## PerspectiveCamera
 
-![plot](./public/perspectiveCamera.png)
+Pictorial representation of attributes:
+![plot](./public/study/perspectiveCamera.png)
 
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
@@ -16,6 +19,14 @@ const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.inner
 -> 2nd attribute: Aspect ratio of the object
 
 -> 3rd, 4th: Near and far clipping plane. Objects > far && Objects < near won't be rendered
+
+## Orthographic camera
+
+It is used to render 2D objects
+
+Perspective camera Vs Orthographic camera
+![plot](./public/study/orthoVsPersp1.png)
+![plot](./public/study/orthoVsPersp2.png)
 
 # Renderer
 
@@ -55,3 +66,16 @@ This will create a loop that causes the renderer to draw the scene every time th
 # WebGL compatibility check
 Even though this is becoming less and less of a problem, some devices or browsers may still not support WebGL 2.
 Refer to check WebGL compatibility: https://threejs.org/docs/index.html#manual/en/introduction/WebGL-compatibility-check
+
+# Lights
+
+## Ambient light
+It is the environmental ligh that comes from all directions
+e.g. Room light
+
+## Directional light
+That comes from a particular direction
+e.g. Sunlight
+
+## Spot light
+Emits the light in the form of a cone
