@@ -79,3 +79,6 @@ e.g. Sunlight
 
 ## Spot light
 Emits the light in the form of a cone
+
+# Move objects: A ray caster
+(Revisit tutorial)
